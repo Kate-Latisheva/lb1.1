@@ -33,7 +33,7 @@ instance_type = "t2.micro"
 key_name = "mykey1"
 vpc_security_group_ids = [aws_security_group.web_sg.id]
 tags = {
-"Name" = "New webserver"
+"Name" = "New_webserver"
 }
 
 user_data = <<-EOF
